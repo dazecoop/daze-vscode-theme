@@ -1,0 +1,33 @@
+{
+	"name": "daze-theme",
+	"displayName": "Daze Theme",
+	"description": "Daze Theme, based on Blackboard Theme",
+	"version": "0.0.1",
+	"publisher": "daze",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"homepage": "https://www.dazemx.com",
+	"repository": {
+		"type": "git",
+		"url": "https://www.dazemx.com"
+	},
+	"contributes": {
+		"themes": [
+            {
+                "label": "Daze",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Daze.tmTheme"
+            }
+		]
+	},
+	"__metadata": {
+		"id": "xx",
+		"publisherId": "xx",
+		"publisherDisplayName": "daze"
+	}
+}
